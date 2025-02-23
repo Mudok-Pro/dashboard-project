@@ -77,11 +77,84 @@ grid-template-columns: 1fr 1fr;
   grid-row:2/3;
 }
 .card{
-  width:300px;
+  width:auto;
   border : 1px solid black;
   background-color:rgb(219, 255, 88);
   height:200px;
   margin:20px;
   margin:10px;
 
+}
+.my-home-icon {
+  margin-top: 15px;
+  margin-right:20px;
+  width: 28px;
+  height: 28px;
+  fill: #ddd; 
+}
+.icon-white {
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-message {
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-history{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-task{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-comt{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-settings{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-support{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-privacy{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 24px;
+  height: 24px;
+  fill: #ddd ;
+}
+.icon-dashboard{
+  margin-top: 15px;
+  margin-right:20px;
+  width: 35px;
+  height: 35px;
+  fill: #ddd ;
+}
+a {
+  text-decoration: none;
 }
