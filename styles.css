@@ -2,6 +2,7 @@ body{
   margin:0;
   padding:0;
   font-family:sans-serif;
+  background-color: #ddd;
 }
 .container{
   display: grid;
@@ -31,7 +32,7 @@ p > a{
 
 .header{
   
-  background-color: rgb(231, 247, 255);
+  background-color: white;
   color:#0a0a0a;
   padding:15px;
   grid-column: 2/6;
@@ -43,6 +44,8 @@ p > a{
 
 input{
   width:500px;
+  background-color: #f3f1f1;
+  border-radius: 10px;
 }
 .main-content{
   grid-column:2/6;
@@ -65,10 +68,13 @@ grid-template-columns: 1fr 1fr;
 .annoncements{
   grid-column: 2/3;
   grid-row:1/2;
-  background-color:#ddd;
+  background-color:white;
   margin-top: 10px;;
   box-shadow: 0 4px 8px rgb(145, 145, 145);
   padding:10px;
+  height:fit-content;
+  border-radius: 10px;
+  
 }
   .news {
     padding: 10px 0;
@@ -83,11 +89,26 @@ grid-template-columns: 1fr 1fr;
 .trending{
   grid-column: 2/3;
   grid-row:2/3;
+  background-color:white;
+  margin-top: 10px;;
+  box-shadow: 0 4px 8px rgb(145, 145, 145);
+  padding:10px;
+  height:fit-content;
+  border-radius: 10px;
+ 
+}
+.trend{
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+  
+}
+.trend:last-child{
+  border-bottom: none;
 }
 .card{
   width:auto;
   position: relative;
-  background-color:#ddd;
+  background-color:white;
   height:200px;
   border-left: 4px solid rgb(0, 218, 145);
   margin:10px;
@@ -111,47 +132,47 @@ grid-template-columns: 1fr 1fr;
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .my-home-icon {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 28px;
   height: 28px;
   fill: #ddd; 
 }
 .icon-white {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-message {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-history{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-task{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-comt{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
@@ -159,28 +180,28 @@ grid-template-columns: 1fr 1fr;
 }
 .icon-settings{
 
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-support{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-privacy{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 24px;
   height: 24px;
   fill: #ddd ;
 }
 .icon-dashboard{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right:20px;
   width: 35px;
   height: 35px;
@@ -201,7 +222,10 @@ a {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background-color: #ddd;
+  background-color: white;
+ 
+  box-shadow: 0 4px 8px rgba(145, 145, 145);
+  margin-bottom: 30px;
 }
 .top {
   display: flex;
@@ -257,11 +281,12 @@ button{
   margin-bottom: 20px;
  
 }
-.projects-header{
-  text-align: center;
-  margin-bottom: 20px;
-}
+
 .projects-wrapper {
   display: grid;
-  grid-template-rows: auto 1fr; /* Header then container */
+  grid-template-rows: auto 1fr;
+}
+
+.trend>img{
+  width:35px;
 }
